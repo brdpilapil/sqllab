@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f5f7;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #4a56d0;
+    padding-bottom: 6px;
+    margin-top: 40px;
+}
+
+.box {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+button,
+.button {
+    display: inline-block;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    background: #4a56d0;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.button-gray {
+    background: #777;
+}
+
+.button-red {
+    background: #c0392b;
+}
+
+.small {
+    padding: 5px 10px;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #eceefb;
+}
+
+td form {
+    display: inline;
+}
+
+.success {
+    background: #e3f6ea;
+    border: 1px solid #9fd8b4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.error {
+    background: #fdeaea;
+    border: 1px solid #f0aaaa;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
